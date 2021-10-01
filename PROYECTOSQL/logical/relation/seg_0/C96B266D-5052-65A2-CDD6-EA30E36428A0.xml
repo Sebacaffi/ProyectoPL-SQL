@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POST DOC FK" directorySegmentName="seg_0" id="C96B266D-5052-65A2-CDD6-EA30E36428A0">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:24:15 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<sourcePk>149D50BC-1DA9-F371-DCA7-0030511402FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>774E5335-EAFF-B820-DBC0-3660335620FA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0930B7B1-B547-28B6-3185-B9A9F0FB9B24</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

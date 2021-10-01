@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DAF29CC-C0AA-38F4-E25A-FA34BCD96F8E" name="POSTULACION">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>71CD9820-6E11-7139-1F66-6FE3A7E4FED6</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POSTULACION" id="3BD1B94B-725F-A2A7-8A54-BCF51A48FA72">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>719CB28E-575E-5BB9-E492-3023ADA5C6E9</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_POSTULACION" id="6A3718A7-F864-1F59-EA7A-72301BE89544">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>7722809A-F518-CB25-C116-055CE86FC732</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVALUA_OBJETIVO" id="0292F9E3-4BC1-C68C-9EF9-11208A0C94B6">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>D968BF4A-6B74-B19A-C747-E637E3F691AC</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVALUA_RETRIBUCION" id="60875BD0-C738-3B96-23E3-BC903CFF84B3">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>C3628AC2-511C-B885-5E7A-D89FA660A76E</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVALUA_DOCE_INVE" id="67031146-1725-1BF0-4983-8A8B869B4AE4">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>0BE20061-DA29-1876-1C2B-0AC11724031E</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVALUA_INTERES" id="9956E11E-5424-7F12-02DE-1B1333A77BB2">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-06-05 23:13:19 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POSTULANTE" id="E390ED99-7818-A965-B7AD-D32CE674530B">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>ACE95C56-8295-4326-8A32-ABCC2CB25CEC</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF9CDB9A-E2AD-15AB-021C-1C3794F10DD7" referredColumn="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
+</associations>
+</Column>
+<Column name="CERT_CED_IDENTIDAD" id="2DA2F26C-84C3-E96B-48D9-D8F84F553431">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:18:48 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_PERM_DEFINITIVA" id="188F25BB-0E23-F9E6-DCCE-1802736D3559">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_TITULO_MED" id="29BC32CC-7CB2-BA10-A47E-6818832B7300">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_NOTAS_PREGRADO" id="C321162C-4D89-6D0A-2C2F-3BF4E1A35C11">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_TITULO_ESP" id="EAB9D0EC-A462-EE78-787C-F8B9AF2049A4">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_LABORAL" id="6A80CEF5-FDA5-9CB9-AB6E-8953FAEC9227">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_IDIOMA" id="981A17A2-6BE4-1AA0-71BF-F7CE3FA74B1A">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E083899A-3A5D-E9E2-D834-CD68C1AEF1E0" name="POSTULACION_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>57A55BE7-05FB-55E4-1009-49E9351C4792</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD1B94B-725F-A2A7-8A54-BCF51A48FA72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3D13523-0751-FE9E-DB78-131CB9480C03" name="POSTULACION_POSTULANTE_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>72A5BB4E-4FCF-7A03-E528-BD6710EA3DBE</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E390ED99-7818-A965-B7AD-D32CE674530B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

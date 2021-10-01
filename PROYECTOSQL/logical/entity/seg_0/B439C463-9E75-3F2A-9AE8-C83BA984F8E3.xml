@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B439C463-9E75-3F2A-9AE8-C83BA984F8E3" name="PUNTAJE ASIGNADO">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:29:30 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID POSTULANTE" id="917BC077-8D9A-7B4F-73ED-557D8AFE9379">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:30:55 UTC</createdTime>
+<generatorID>9A6E1815-320E-8C35-C5F8-487CA21F825D</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>BFCFE010-754D-AD92-6D2B-9DD4D8407556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUNTAJE" id="6441EA42-5833-82A5-4980-CC25C20EBCC2">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:30:28 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="479BA954-A785-CCE3-E5AD-299F7701DBF3" name="PUNTAJE_ASIGNADO_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:31:49 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>917BC077-8D9A-7B4F-73ED-557D8AFE9379</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CIUDAD REGION FK" directorySegmentName="seg_0" id="C04B9B11-2C85-70A4-781F-D08BCFCF1C7B">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:04:38 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<sourcePk>4E8E9CB9-A4A9-F2D4-A63D-B6CBFC177F80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1AA15AB1-9957-4CCE-55D4-BA752C03E466</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>498E7A02-CF9C-9ECB-7B60-A69D44924557</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

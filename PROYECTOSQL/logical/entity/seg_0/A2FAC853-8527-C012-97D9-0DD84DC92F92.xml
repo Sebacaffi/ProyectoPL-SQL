@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2FAC853-8527-C012-97D9-0DD84DC92F92" name="NACIONALIDAD">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID NACIONALIDAD" id="2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="EDD5BA2D-FABC-9F5E-9F6D-938946361E32">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:20:07 UTC</createdTime>
+<generatorID>ECE85C39-3D3B-D194-D7C5-B13F9CBCAE03</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="235F0EAE-53D1-CEE0-37B5-06F50BCE8347" name="NACIONALIDAD_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F</newElementsIDs>
+<usedAttributes>
+<attributeRef>2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
